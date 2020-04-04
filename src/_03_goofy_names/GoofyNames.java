@@ -24,16 +24,21 @@ public class GoofyNames {
 			// 4. Create a String variable to store the next character of the name
 			//    using .substring(start, end)
 			//    HINT: replace 'start' and 'end' to get String with character at i 
-			name.substring();
+			String bruhname = name.substring(i, i+1);
 			// 5. Use MODULO to set this variable to upper case for EVEN characters
 			//    and lower case for ODD characters.
-
+			if(i % 2 == 0) {
+				bruhname = bruhname.toUpperCase();
+			}
+			if(i % 2 == 1) {
+				bruhname = bruhname.toLowerCase();
+			}
 			
 			// 6. ADD this String  (containing 1 char) to the goofyName String
-
+			goofyName = goofyName + bruhname;
 	}
 		// 7. Use pop-up to show user their Goofy name
-
+		JOptionPane.showMessageDialog(null, goofyName);
 	}
 }
 
