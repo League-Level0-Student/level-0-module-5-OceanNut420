@@ -34,6 +34,8 @@ public class catisnothealthy {
 //			if(e % 2 == 0) {
 //				System.out.println(" is even");
 //			}
+//			if(e % 2 == 1) {
+//				System.out.println(" is odd");
 //			}
 //			e = e+1;
 //		}
