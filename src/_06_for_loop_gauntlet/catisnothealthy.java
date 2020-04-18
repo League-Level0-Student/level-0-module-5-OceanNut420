@@ -88,12 +88,14 @@ public class catisnothealthy {
 //											}
 //	}	
 		//4.
-		for(int i = 0; i < 6; i++) {
-			for(int z = 0; z < 1; z++) {
-				System.out.println();
-				
-			}
-		}
+//		int b = 1;
+//		for(int i = 0; i < 6; i++) {
+//			for(int z = 0; z < b; z++) {
+//				System.out.print("*");
+//			}
+//			System.out.println("");
+//			b = b + 1;
+//		}
 		
 		
 		
