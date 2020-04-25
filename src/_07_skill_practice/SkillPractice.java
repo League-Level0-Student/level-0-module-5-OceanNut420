@@ -11,8 +11,8 @@ public class SkillPractice {
 			SkillPractice skills = new SkillPractice();
 			           skills.skill1();
 			           skills.skill2();
-			           skills.skill3();
-			           skills.skill4();
+			         //  skills.skill3();
+			           
 			           skills.skill5();
 			}
 
@@ -58,7 +58,7 @@ public class SkillPractice {
 
 			}
 
-			void skill3() { // Get a random number that is less than 20 and print it to the console
+//			void skill3() { // Get a random number that is less than 20 and print it to the console
 //				Random mom = new Random();
 //				int ree = mom.nextInt(20);
 //				System.out.println(ree);
@@ -72,44 +72,52 @@ public class SkillPractice {
 //				int momo = ree - re;
 //				JOptionPane.showMessageDialog(null, momo);
 
-			}
+//			}
 
-			void skill4() { // In a pop-up, ask the user for the city they live in
-				String gru = JOptionPane.showInputDialog("wat city u live in(no capital letters)");
+//			void skill4() { // In a pop-up, ask the user for the city they live in
+//				String gru = JOptionPane.showInputDialog("wat city u live in(no capital letters)");
 
 
 			// If they answered "San Diego", tell them they live in America's Finest City
-				if(gru .equals("san diego")) {
-					JOptionPane.showMessageDialog(null, "u live in murica epicest city");
-				}
-
+//				if(gru .equals("san diego")) {
+//					JOptionPane.showMessageDialog(null, "u live in murica epicest city");
+//				}
+//
 
 			// Otherwise, tell them to move to San Diego
-				else {
-					JOptionPane.showMessageDialog(null, "move to san diego u bruh");
-				}
-
+//				else {
+//					JOptionPane.showMessageDialog(null, "move to san diego u bruh");
+//				}
+//
 
 			// Create a variable - cars - and initialize it to the number of cars your family has. // If there are 0 cars, use a pop-up to display, "I bet you use public transportation."
-
+//				String bus = JOptionPane.showInputDialog("how many cars u have");
+//				int poo = Integer.parseInt(bus);
+//				if(poo == 0) {
+//					JOptionPane.showMessageDialog(null, "you use public transportation eeeeeeeeee");
+//				}
 
 
 			// If there is 1 car, use a pop-up to display the make/model of the car
-
+//				if(poo == 1) {
+//					JOptionPane.showMessageDialog(null, "u broke?");
+//				}
 
 
 			// If there is more than 1 car, use a pop-up to display how many wheels the // cars have between them.
+//				if(poo > 1) {
+//					JOptionPane.showMessageDialog(null, "u have " + poo*4 + " wheels");
+//				}
 
 
-
-			}
+//			}
 
 			void skill5() { // In a pop-up, ask the user for the name of their school
-
+				String skool = JOptionPane.showInputDialog("wat name of ur skool");
 
 
 			// In another pop-up, tell the user, that their school is a fantastic school. // You must include the name of the school in the message.
-
+				JOptionPane.showMessageDialog(null, skool + " is bad skool");
 
 
 			}
